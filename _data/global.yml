@@ -1,7 +1,7 @@
 # Site Settings
 title: 'RSJUG'
 description: 'Grupo de Usuários Java do Rio Grande do Sul'
-url: 'https://rmpestano.github.io/talks' # the base hostname & protocol for your site
+url: 'https://rmpestano.github.io/site' # the base hostname & protocol for your site
 footer_text: 'RSJUG - Grupo de Usuários Java do Rio Grande do Sul'
 
 # Admin Settings
