@@ -34,7 +34,7 @@ excerpt_separator: "\n\n"
 detach:  false
 port:    80
 host:    rmpestano.github.io
-baseurl: "site" # does not include hostname
+baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     /:title.html
