@@ -1,0 +1,32 @@
+---
+layout: inner
+categories: blog development
+tags:
+- github
+- jekyll
+- asciidoc
+excerpt: This is a sample page composed in AsciiDoc.
+comments: true
+---
+= Sample Page
+:revdate: 2016-03-20 10:30:00 -0600
+:page-permalink: /sample/
+:uri-asciidoctor: http://asciidoctor.org
+:lead-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
+
+== First Section
+
+* item 1
+* item 2
+
+[source,java,linenums]
+----
+public static main(String[] args) {
+	System.out::println("Hello Jekyll");
+}
+----
+
+
