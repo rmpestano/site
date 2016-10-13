@@ -33,7 +33,7 @@ excerpt_separator: "\n\n"
 # Serving
 detach:  false
 port:    80
-host:    rmpestano.github.io
+host:    rmpestano.github.io/site
 baseurl: "" # does not include hostname
 
 # Outputting
