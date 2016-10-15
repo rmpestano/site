@@ -1,7 +1,4 @@
 {% include header.html %}
-  {% if post.tags or page.tags %}
-	{% include post-tags.html %}
-  {% endif %}
     {% include title-group.html %}
 
     <article>
@@ -38,4 +35,8 @@
         </div>
     </article>
 
+{% if post.tags or page.tags %}
+{% include post-tags.html %}
+{% endif %}
 {% include footer.html %}
+
