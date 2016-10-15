@@ -12,7 +12,6 @@ comments: true
 :revdate: 2016-03-20 10:30:00 -0600
 :page-permalink: /sample/
 :uri-asciidoctor: http://asciidoctor.org
-:lead-text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
 
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
@@ -25,8 +24,11 @@ Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
 [source,java,linenums]
 ----
 public static main(String[] args) {
-	System.out::println("Hello Jekyll");
+	System.out::println("Hello Jekyll"); <1>
 }
 ----
+<1> prints to output console
+
+NOTE: This is rendered by {uri-asciidocto}[Asciidoctor^].
 
 
