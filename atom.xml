@@ -4,7 +4,7 @@
  <title>RSJUG</title>
  <link href="https://rmpestano.github.io/site/atom.xml" rel="self"/>
  <link href="https://rmpestano.github.io/site/"/>
- <updated>2016-10-15T20:19:57+00:00</updated>
+ <updated>2016-10-15T20:30:26+00:00</updated>
  <id>https://rmpestano.github.io/site</id>
  <author>
    <name>rsjug</name>
@@ -14,8 +14,8 @@
  
  <entry>
    <title>Sample Page</title>
-   <link href="https://rmpestano.github.io/site/sample.html"/>
-   <updated>2016-03-20T10:30:00+00:00</updated>
+   <link href="https://rmpestano.github.io/site/sample/"/>
+   <updated>2016-03-20T16:30:00+00:00</updated>
    <id>https://rmpestano.github.io/site/sample</id>
    <content type="html">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
 &lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
