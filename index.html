@@ -149,7 +149,7 @@
                         <div class="tile">
     
     <div class="inner-guts">
-        <h2><a href="/site/sample/">Sample Page</a></h2>
+        <h2 ><a class="post-link" href="/site/sample/">Sample Page</a></h2>
         <aside>
              20/03/2016
             
@@ -189,7 +189,7 @@
     </a>
     
     <div class="inner-guts">
-        <h2><a href="/site/my-first-video-post.html">My First Video Post on Jekyll</a></h2>
+        <h2 ><a class="post-link" href="/site/my-first-video-post.html">My First Video Post on Jekyll</a></h2>
         <aside>
              31/08/2015
             
@@ -229,7 +229,7 @@
     </a>
     
     <div class="inner-guts">
-        <h2><a href="/site/example-post.html">My First Post on Jekyll</a></h2>
+        <h2 ><a class="post-link" href="/site/example-post.html">My First Post on Jekyll</a></h2>
         <aside>
              31/08/2015
             
@@ -263,7 +263,7 @@
                         <div class="tile">
     
     <div class="inner-guts">
-        <h2><a href="/site/my-first-normal-post.html">My First Normal Post on Jekyll</a></h2>
+        <h2 ><a class="post-link" href="/site/my-first-normal-post.html">My First Normal Post on Jekyll</a></h2>
         <aside>
              15/08/2015
             
@@ -348,6 +348,10 @@
          }
          hr {
              width: 100%!important;
+         }
+         .post-link { /*overrides asciidoctor links*/
+             font-weight:bold!important;
+             color:#f53c3c!important;
          }
      </style>
     </body>
