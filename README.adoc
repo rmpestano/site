@@ -14,6 +14,8 @@
 :caution-caption: :fire:
 :warning-caption: :warning:
 
+== What's it?
+
 A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Jekyll] and github pages.
 
 ==  Features
@@ -26,7 +28,7 @@ A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Je
 
 
 
-=== Running it locally
+== Running it locally
 
 . Fist you will need to https://www.ruby-lang.org/en/documentation/installation/[install Ruby^]
 +
