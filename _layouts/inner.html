@@ -1,13 +1,13 @@
 {% include header.html %}
-
+  {% if post.tags or page.tags %}
+	{% include post-tags.html %}
+  {% endif %}
     {% include title-group.html %}
 
     <article>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-	
-
                     {{ content }}
                 </div>
 	   {% if page.comments %}

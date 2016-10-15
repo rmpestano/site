@@ -1,4 +1,5 @@
 main:
     - { url: '/', text: 'Notícias' }
-    - { url: '/about', text: 'Quem somos?' }
-    - { url: 'https://github.com/rmpestano/site', text: 'Fork on GitHub' }
+    - { url: '/site/about', text: 'Quem somos?' }
+    - { url: '/site/objetivos', text: 'Objetivos' }
+    - { url: '/site/listas', text: 'Listas de Discussão' }

@@ -11,7 +11,7 @@
     </a>
     {% endif %}
     <div class="inner-guts">
-        <h2><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <aside>
              {{ post.date | date: "%d/%m/%Y" }}
             {% if post.categories != empty %}
