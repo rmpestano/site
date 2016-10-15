@@ -5986,7 +5986,7 @@ nav.navbar {
 .title-group {
   text-align: center;
   padding: 0 15px;
-  margin: 55px 0 50px; }
+  margin: 70px 0 20px; }
   .title-group p {
     max-width: 800px;
     margin: 20px auto 0; }
@@ -6028,10 +6028,10 @@ h1.special {
     padding: 30px; }
   .tile h2 {
     margin: 0;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: -0.05em;
-    line-height: 45px; }
+    line-height: 40px; }
   .tile .featurette {
     position: relative;
     display: block;
