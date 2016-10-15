@@ -172,7 +172,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <div id="preamble">
+                    <div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#strong_first_section_strong"><strong>First Section</strong></a>
+<ul class="sectlevel2">
+<li><a href="#a_sub_section">A sub Section</a></li>
+</ul>
+</li>
+<li><a href="#second_section">Second section</a></li>
+</ul>
+</div>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>This is a sample page composed in AsciiDoc.
@@ -181,7 +192,7 @@ Jekyll converts it to HTML using <a href="http://asciidoctor.org">Asciidoctor</a
 </div>
 </div>
 <div class="sect1">
-<h2 id="first_section">First Section</h2>
+<h2 id="strong_first_section_strong"><strong>First Section</strong></h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -226,6 +237,16 @@ This is rendered by <a href="http://asciidoctor.org" target="_blank">Asciidoctor
 </tr>
 </table>
 </div>
+<div class="sect2">
+<h3 id="a_sub_section">A sub Section</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="second_section">Second section</h2>
+<div class="sectionbody">
+
 </div>
 </div>
                 </div>
@@ -279,7 +300,13 @@ This is rendered by <a href="http://asciidoctor.org" target="_blank">Asciidoctor
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://rmpestano.github.io/site/js/power.js"></script>
 
-     <script id="dsq-count-scr" src="//rmpestano.disqus.com/count.js" async></script>	
+     <script id="dsq-count-scr" src="//rmpestano.disqus.com/count.js" async></script>
+     <style type="text/css">
+         pre {
+             border: 0px !important;
+             border-radius: 0px !important;
+         }
+     </style>
     </body>
 </html>
 

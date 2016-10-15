@@ -4,7 +4,7 @@
  <title>RSJUG</title>
  <link href="https://rmpestano.github.io/site/atom.xml" rel="self"/>
  <link href="https://rmpestano.github.io/site/"/>
- <updated>2016-10-15T19:12:17+00:00</updated>
+ <updated>2016-10-15T19:57:21+00:00</updated>
  <id>https://rmpestano.github.io/site</id>
  <author>
    <name>rsjug</name>
@@ -17,7 +17,18 @@
    <link href="https://rmpestano.github.io/site/sample/"/>
    <updated>2016-03-20T16:30:00+00:00</updated>
    <id>https://rmpestano.github.io/site/sample</id>
-   <content type="html">&lt;div id=&quot;preamble&quot;&gt;
+   <content type="html">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#strong_first_section_strong&quot;&gt;&lt;strong&gt;First Section&lt;/strong&gt;&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#a_sub_section&quot;&gt;A sub Section&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#second_section&quot;&gt;Second section&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;This is a sample page composed in AsciiDoc.
@@ -26,7 +37,7 @@ Jekyll converts it to HTML using &lt;a href=&quot;http://asciidoctor.org&quot;&g
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;first_section&quot;&gt;First Section&lt;/h2&gt;
+&lt;h2 id=&quot;strong_first_section_strong&quot;&gt;&lt;strong&gt;First Section&lt;/strong&gt;&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -71,6 +82,16 @@ This is rendered by &lt;a href=&quot;http://asciidoctor.org&quot; target=&quot;_
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;a_sub_section&quot;&gt;A sub Section&lt;/h3&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;second_section&quot;&gt;Second section&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;</content>
  </entry>

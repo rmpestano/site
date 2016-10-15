@@ -5,13 +5,24 @@
     <description>Grupo de Usuários Java do Rio Grande do Sul</description>
     <link>https://rmpestano.github.io/site/site/</link>
     <atom:link href="https://rmpestano.github.io/site/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 19:12:17 +0000</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 19:12:17 +0000</lastBuildDate>
+    <pubDate>Sat, 15 Oct 2016 19:57:21 +0000</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 19:57:21 +0000</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Sample Page</title>
-        <description>&lt;div id=&quot;preamble&quot;&gt;
+        <description>&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#strong_first_section_strong&quot;&gt;&lt;strong&gt;First Section&lt;/strong&gt;&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#a_sub_section&quot;&gt;A sub Section&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#second_section&quot;&gt;Second section&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;This is a sample page composed in AsciiDoc.
@@ -20,7 +31,7 @@ Jekyll converts it to HTML using &lt;a href=&quot;http://asciidoctor.org&quot;&g
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;first_section&quot;&gt;First Section&lt;/h2&gt;
+&lt;h2 id=&quot;strong_first_section_strong&quot;&gt;&lt;strong&gt;First Section&lt;/strong&gt;&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -65,6 +76,16 @@ This is rendered by &lt;a href=&quot;http://asciidoctor.org&quot; target=&quot;_
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;a_sub_section&quot;&gt;A sub Section&lt;/h3&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;second_section&quot;&gt;Second section&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Sun, 20 Mar 2016 16:30:00 +0000</pubDate>
