@@ -1,4 +1,4 @@
-= RSJUG Site
+= https://rmpestano.github.io/site/[RSJUG Site^]
 :page-layout: base
 :source-language: java
 :icons: font
