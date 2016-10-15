@@ -1,0 +1,65 @@
+= RSJUG Site
+:page-layout: base
+:source-language: java
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:numbered:
+:doctype: book
+:toc: preamble
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+
+A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Jekyll] and github pages.
+
+==  Features
+
+* Responsive layout
+* https://disqus.com/[Disqus] integration
+* Based on github pages 
+* Automatically build on git push
+* Posts based on Asciidoc (via asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
+
+
+
+=== Running it locally
+
+. Fist you will need to https://www.ruby-lang.org/en/documentation/installation/[install Ruby^]
++
+NOTE: Use `Ruby 2.1` or supperior 
+. Install `Bundler` gem:
++ 
+----
+gem install bundler
+----
++
+NOTE: You can skip this step if you want to install gems individually, see https://github.com/rmpestano/site/blob/master/Gemfile.xml[requied gems here]
+. Clone the project:
++
+----
+git clone https://github.com/rmpestano/site rsjug-site
+cd rsjug-site
+----
+. Run 
++
+----
+bundle install
+----
++
+NOTE: It will install gems declared in `Gemfile`. You can skip this step if gems are already installed
+. Then run Jekyll 
++
+----
+jekyll serve
+----
+. And finally access http://localhost:4000/site
+
+
+TIP: Every file change is automatically published locally by Jekyll.
+
+
+
