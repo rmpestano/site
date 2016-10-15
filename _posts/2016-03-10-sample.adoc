@@ -12,8 +12,6 @@ comments: true
 :revdate: 2016-03-20 10:30:00 -0600
 :page-permalink: /sample/
 :uri-asciidoctor: http://asciidoctor.org
-:icons: font
-:source-highlighter: coderay
 
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].

@@ -83,3 +83,4 @@ kramdown:
 include: ['_pages']
 exclude:
   - vendor/
+  - README.adoc
