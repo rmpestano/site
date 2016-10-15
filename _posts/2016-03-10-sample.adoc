@@ -1,6 +1,7 @@
 ---
 layout: inner
 categories: blog development
+date: 2016-03-20 10:30:00
 tags:
 - github
 - jekyll
@@ -9,8 +10,6 @@ excerpt: This is a sample page composed in AsciiDoc.
 comments: true
 ---
 = Sample Page
-:revdate: 2016-03-20 10:30:00 -0600
-:page-permalink: /sample/
 :toc:
 :uri-asciidoctor: http://asciidoctor.org
 
@@ -34,5 +33,16 @@ NOTE: This is rendered by {uri-asciidoctor}[Asciidoctor^].
 
 === A sub Section
 
+Subsection content.
+
 == Second section
+
+Another section with *bold* and _italics_ and nested lists:
+
+* List item 1
+**  List item 1.1
+* List item 2
+
+More details see Asciidoctor quick syntax referencefootnote:[http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/] or http://asciidoctor.org/docs/user-manual/[Asciidoctor user manual^].
+
 
