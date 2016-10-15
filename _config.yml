@@ -45,16 +45,14 @@ timezone:      null
 quiet:    false
 defaults: []
 
-asciidoc:
-  processor: asciidoctor
-  ext: asciidoc,adoc,ad
+
+asciidoctor:
   attributes:
-    idprefix: _
-    source-highlighter: coderay
-    pygments-css: style
-    imagesdir: /images
-    icons: font
-    hardbreaks-option:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font
+    - imagesdir=/images
+    - hardbreaks-option=
 
 # Markdown Processors
 rdiscount:
