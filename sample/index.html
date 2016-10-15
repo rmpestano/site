@@ -191,26 +191,33 @@ Jekyll converts it to HTML using <a href="http://asciidoctor.org">Asciidoctor</a
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-java" data-lang="java">public static main(String[] args) {
-	System.out::println("Hello Jekyll"); <b class="conum">(1)</b>
-}</code></pre>
+<pre class="CodeRay highlight"><code data-lang="java"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
+2
+3
+</pre></td>
+  <td class="code"><pre><span class="directive">public</span> <span class="directive">static</span> main(<span class="predefined-type">String</span><span class="type">[]</span> args) {
+        <span class="predefined-type">System</span>.out::println(<span class="string"><span class="delimiter">&quot;</span><span class="content">Hello Jekyll</span><span class="delimiter">&quot;</span></span>); <i class="conum" data-value="1"></i><b>(1)</b>
+}</pre></td>
+</tr></table></code></pre>
 </div>
 </div>
 <div class="colist arabic">
-<ol>
-<li>
-<p>prints to output console</p>
-</li>
-</ol>
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>prints to output console</td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock note">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-This is rendered by {uri-asciidocto}[Asciidoctor^].
+This is rendered by <a href="http://asciidoctor.org" target="_blank">Asciidoctor</a>.
 </td>
 </tr>
 </table>
