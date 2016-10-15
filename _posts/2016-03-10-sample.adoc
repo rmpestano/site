@@ -11,12 +11,13 @@ comments: true
 = Sample Page
 :revdate: 2016-03-20 10:30:00 -0600
 :page-permalink: /sample/
+:toc:
 :uri-asciidoctor: http://asciidoctor.org
 
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
 
-== First Section
+== *First Section*
 
 * item 1
 * item 2
@@ -31,4 +32,7 @@ public static main(String[] args) {
 
 NOTE: This is rendered by {uri-asciidoctor}[Asciidoctor^].
 
+=== A sub Section
+
+== Second section
 
