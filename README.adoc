@@ -21,25 +21,25 @@ A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Je
 ==  Features
 
 * Responsive layout
+* Mobile 'friendly'
 * https://disqus.com/[Disqus] integration
 * Based on github pages 
 * Automatically build on git push
 * Posts based on Asciidoc (via asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
 
 
-
 == Running it locally
 
 . Fist you will need to https://www.ruby-lang.org/en/documentation/installation/[install Ruby^]
 +
-NOTE: Use `Ruby 2.1` or supperior 
+NOTE: Use `Ruby 2.1` or superior
 . Install `Bundler` gem:
 + 
 ----
 gem install bundler
 ----
 +
-NOTE: You can skip this step if you want to install gems individually, see https://github.com/rmpestano/site/blob/master/Gemfile.xml[requied gems here]
+TIP: You can skip this step if you want to install gems individually, see https://github.com/rmpestano/site/blob/master/Gemfile.xml[requied gems here]
 . Clone the project:
 +
 ----
@@ -64,4 +64,8 @@ jekyll serve
 TIP: Every file change is automatically published locally by Jekyll.
 
 
+== TODO
+
+* Search mechanism to find posts
+* Customize layout (preferably by a web designer)
 
