@@ -17,7 +17,7 @@ comments: true
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
 
-== *First Section*
+== First Section
 
 * item 1
 * item 2
