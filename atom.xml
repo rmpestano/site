@@ -4,7 +4,7 @@
  <title>RSJUG</title>
  <link href="https://rmpestano.github.io/site/atom.xml" rel="self"/>
  <link href="https://rmpestano.github.io/site/"/>
- <updated>2016-10-15T18:58:16+00:00</updated>
+ <updated>2016-10-15T19:03:14+00:00</updated>
  <id>https://rmpestano.github.io/site</id>
  <author>
    <name>rsjug</name>
@@ -40,30 +40,23 @@ Jekyll converts it to HTML using &lt;a href=&quot;http://asciidoctor.org&quot;&g
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;java&quot;&gt;&lt;table class=&quot;CodeRay&quot;&gt;&lt;tr&gt;
-  &lt;td class=&quot;line-numbers&quot;&gt;&lt;pre&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;
-  &lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;directive&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;directive&quot;&gt;static&lt;/span&gt; main(&lt;span class=&quot;predefined-type&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;type&quot;&gt;[]&lt;/span&gt; args) {
-        &lt;span class=&quot;predefined-type&quot;&gt;System&lt;/span&gt;.out::println(&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;Hello Jekyll&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;); &lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-}&lt;/pre&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;public static main(String[] args) {
+	System.out::println(&quot;Hello Jekyll&quot;); &lt;b class=&quot;conum&quot;&gt;(1)&lt;/b&gt;
+}&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;prints to output console&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;prints to output console&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock note&quot;&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
-&lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
 This is rendered by &lt;a href=&quot;http://asciidoctor.org&quot; target=&quot;_blank&quot;&gt;Asciidoctor&lt;/a&gt;.
