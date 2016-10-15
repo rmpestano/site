@@ -159,7 +159,7 @@
                     <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#strong_first_section_strong"><strong>First Section</strong></a>
+<li><a href="#first_section">First Section</a>
 <ul class="sectlevel2">
 <li><a href="#a_sub_section">A sub Section</a></li>
 </ul>
@@ -176,7 +176,7 @@ Jekyll converts it to HTML using <a href="http://asciidoctor.org">Asciidoctor</a
 </div>
 </div>
 <div class="sect1">
-<h2 id="strong_first_section_strong"><strong>First Section</strong></h2>
+<h2 id="first_section">First Section</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -340,10 +340,15 @@ This is rendered by <a href="http://asciidoctor.org" target="_blank">Asciidoctor
          hr {
              width: 100%!important;
          }
-         .post-link { /*overrides asciidoctor links*/
+         .post-link { /*overrides asciidoctor.css links*/
              font-weight:bold!important;
              color:#f53c3c!important;
          }
+         h1,h2,h3,h4,#toctitle { /*overrides asciidoctor.css sections*/
+             font-weight:bold!important;
+             color:#f53c3c!important;
+         }
+
      </style>
     </body>
 </html>
