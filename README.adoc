@@ -24,7 +24,7 @@ A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Je
 * Mobile 'friendly'
 * https://disqus.com/[Disqus] integration
 * Based on github pages 
-* Promotes contribution (as it is hosted in github)
+* Promotes contribution (as it is hosted on github)
 * Automatically build on git push
 * Posts based on Asciidoc (via asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
 
@@ -40,7 +40,7 @@ NOTE: Use `Ruby 2.1` or superior
 gem install bundler
 ----
 +
-TIP: You can skip this step if you want to install gems individually, see https://github.com/rmpestano/site/blob/master/Gemfile.xml[requied gems here]
+TIP: You can skip this step if you want to install gems individually, see https://github.com/rmpestano/site/blob/master/Gemfile.xml[required gems here]
 . Clone the project:
 +
 ----
@@ -95,6 +95,12 @@ jekyll serve
 
 TIP: Every file change is automatically published locally by Jekyll.
 
+
+== Publishing
+
+Every git push triggers `travisci` which will run the `deploy` Rake task (see RakeFile) which will deploy the site to github pages.
+
+NOTE: Travis and the rake task is only needed because `jekyll-asciidoctor` gem is not installed in github pages, https://github.com/asciidoctor/jekyll-asciidoc-quickstart#github-pages-and-asciidoc[see details here^].  
 
 == TODO
 
