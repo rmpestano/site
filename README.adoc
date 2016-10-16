@@ -24,6 +24,7 @@ A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Je
 * Mobile 'friendly'
 * https://disqus.com/[Disqus] integration
 * Based on github pages 
+* Promotes contribution (as it is hosted in github)
 * Automatically build on git push
 * Posts based on Asciidoc (via asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
 
@@ -58,20 +59,38 @@ IMPORTANT: If you receive the error `can't find header files for ruby at /usr/sh
 +
 ----
 //fedora
-sudo yum install -y gcc ruby-devel rubygems libxml2 libxml2-devel libxslt libxslt-devel
+sudo dnf install -y gcc ruby-devel rubygems libxml2 libxml2-devel libxslt libxslt-devel
 //ubuntu
-sudo apt-get install ruby-dev
+sudo apt-get install ruby-dev 
 //or
 sudo apt-get install ruby2.0-dev
 //or
 sudo apt-get install ruby2.2-dev
+----
++
+IMPORTANT: if you get `ERROR: Failed to build gem native extension.`, you need to install native extensions:
++
+----
+//ubuntu
+sudo apt-get install libgmp-dev
+//or
+sudo apt-get install libgmp3-dev
+//fedora
+sudo dnf install rpm-build
+----
++
+NOTE: output should be:
++
+----
+Bundle complete! 7 Gemfile dependencies, 27 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
 ----
 . Then run Jekyll 
 +
 ----
 jekyll serve
 ----
-. And finally access http://localhost:4000/site
+. And finally access http://localhost:4000/site/
 
 
 TIP: Every file change is automatically published locally by Jekyll.
