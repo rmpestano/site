@@ -1,5 +1,5 @@
 main:
-    - { url: '/site', text: 'Notícias' }
+    - { url: '/site/', text: 'Notícias' }
     - { url: '/site/about', text: 'Quem somos?' }
     - { url: '/site/objetivos', text: 'Objetivos' }
     - { url: '/site/listas', text: 'Listas' }
