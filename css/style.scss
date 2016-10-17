@@ -33,9 +33,9 @@ a {
 .btn {
     text-transform: uppercase;
     font-weight: 400;
-    @extend %oswald;
+    @extend %roboto;
 }
-h1, h2, h3, h4, h5, h6 { @extend %oswald; }
+h1, h2, h3, h4, h5, h6 { @extend %roboto; }
 ::selection {
     background: #086AFF;
     color: #fff;
@@ -79,7 +79,7 @@ h1.special {
     overflow: hidden;
     margin: 0;
     text-transform: uppercase;
-    @extend %oswald;
+    @extend %roboto;
     font-size: 50px;
     line-height: 50px;
     font-weight: 700;
