@@ -3,4 +3,4 @@ main:
     - { url: '/site/about', text: 'Quem somos?' }
     - { url: '/site/objetivos', text: 'Objetivos' }
     - { url: '/site/listas', text: 'Listas' }
-    - { url: '/site/arquivos', text: 'Arquivo' }
+    - { url: '/site/arquivo', text: 'Arquivo' }
