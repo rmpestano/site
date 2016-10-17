@@ -5934,10 +5934,10 @@ button.close {
   .highlight .il {
     color: #099; }
 
-.btn, h1, h2, h3, h4, h5, h6, h1.special, .tile .tags span, aside {
+.tile .tags span, aside {
   font-family: 'Oswald', sans-serif; }
 
-body {
+body, .btn, h1, h2, h3, h4, h5, h6, h1.special {
   font-family: 'Roboto Condensed', sans-serif; }
 
 body {
