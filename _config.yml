@@ -51,7 +51,7 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
-    - imagesdir=/images
+    - imagesdir=/site/img
     - hardbreaks-option=
 
 # Markdown Processors
