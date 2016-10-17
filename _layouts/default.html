@@ -13,6 +13,13 @@
                     {% include pagination.html %}
                 </div>
             </div>
+            <hr/>
+            <form action="/site/search/" method="get">
+                <div style="text-align: center;margin: 20px">
+                    <input type="text" id="search-box" name="query" style="width: 250px" title="Busca rápida baseada no conteúdo">
+                    <input class="btn btn-info btn-lg" type="submit" value="Buscar">
+                </div>
+            </form>
         </div>
     </main>
 
