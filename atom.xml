@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>RSJUG</title>
- <link href="https://rmpestano.github.io/site/atom.xml" rel="self"/>
- <link href="https://rmpestano.github.io/site/"/>
- <updated>2016-10-18T12:00:06+00:00</updated>
+ <link href="/site/atom.xml" rel="self"/>
+ <link href="/site/"/>
+ <updated>2016-10-18T13:48:52+00:00</updated>
  <id>https://rmpestano.github.io/site</id>
  <author>
    <name>rsjug</name>
