@@ -24,7 +24,7 @@
                                   |  $$$$$$/
                                    \______/
     -->
-    <title>Quem somos - RSJUG</title>
+    <title>Busca rápida - RSJUG</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -92,7 +92,7 @@
                         </li>
                     
                         <li>
-                            <a href="/site/about"><b>Quem somos?</b></a>
+                            <a href="/site/sobre"><b>Quem somos?</b></a>
                         </li>
                     
                         <li>
@@ -128,7 +128,7 @@
     <h1 class="special">
         <span>
         
-            Quem somos
+            Busca rápida
         
         </span>
     </h1>
@@ -147,38 +147,58 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <p>We never thought of findin’ a place where we belong. Don’t have to stand alone, we’ll never let you fall. Don’t need permission to decide what you believe. You gotta learn something when we meet you after school. I said jump, down on Jump Street. I said jump, down on Jump Street. Your friends will be there when your back is to the wall. You’ll find you’ll need us cause there’s no one else to call. When it was hopeless a decision is what you need. You’d better be ready cause’ your runnin’ outta time. Say jump, 21 Jump, Street.</p>
+                    <form action="/site/busca/" method="get">
+    <div style="text-align: center;margin: 20px">
+        <input type="text" id="search-box" class="form-control form-control-lg" type="text" placeholder="Busca rápida..." name="query" title="Busca rápida baseada no conteúdo">
+        <br/>
+        <input class="btn btn-primary btn-lg" type="submit" value="Buscar" title="Busca rápida baseada no conteúdo">
+    </div>
+</form>
+<ul id="search-results"></ul>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">meow</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s1">&#39;meow&#39;</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kd">function</span> <span class="nx">bark</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s1">&#39;woof&#39;</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kd">function</span> <span class="nx">getRandomAnimal</span><span class="p">()</span> <span class="p">{</span>
-
-    <span class="kd">var</span> <span class="nx">animals</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s1">&#39;cat&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;dog&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;hippo&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;lion&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;bear&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;zebra&#39;</span>
-    <span class="p">];</span>
-
-    <span class="k">return</span> <span class="nx">animals</span><span class="p">[</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="nx">animals</span><span class="p">.</span><span class="nx">length</span><span class="p">)];</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">meow</span><span class="p">());</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">bark</span><span class="p">());</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">getRandomAnimal</span><span class="p">());</span></code></pre></figure>
-
-<p>They arrived in fifty mother ships, offering their friendship and advance technology to Earth. Skeptical of the visitors, Mike Donovan and Juliet Parrish infiltrated their ranks and soon discovered some startling secrets. The resistance is all that stands between us… and the visitors.</p>
-
-<p>Once in every lifetime, comes a love like this. Oh I need you, you need me, oh my darling can’t you see. Young Ones. Darling we’re the Young Ones. Young Ones. Shouldn’t be afraid. To live, love, there’s a song to be sung. Cause we may not be the Young Ones very long.</p>
-
+<script>
+    window.store = {
+    
+        "sample": {
+        "title": "Sample Page",
+                "author": "",
+                "category": "",
+                "content": "Table of ContentsFirst SectionA sub SectionSecond sectionThis is a sample page composed in AsciiDoc.Jekyll converts it to HTML using Asciidoctor.First Sectionitem 1item 2  123  public static main(String[] args) {        System.out::println(&quot;Hello Jekyll&quot;); (1)}1prints to output consoleThis is rendered by Asciidoctor.A sub SectionSubsection content.Second sectionAnother section with bold and italics and nested lists:List item 1List item 1.1List item 2More details see Asciidoctor quick syntax reference[1] or Asciidoctor user manual.1. http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/",
+        "url": "/sample/"
+    }
+        ,
+        
+        "my-first-video-post-html": {
+        "title": "My First Video Post on Jekyll",
+                "author": "",
+                "category": "",
+                "content": "Steve Austin: Astronaut. A man barely alive. Gentlemen… we can rebuild him. We have the technology. We have the capability to make the world’s first bionic man. Steve Austin will be that man. Better than he was before. Better. Stronger. Faster.My name is Rhoda Morgenstern. I was born in the Bronx, New York in December of 1941. I’ve always felt responsible for World War II. The first thing I remember liking that liked me back was food. I had a bad puberty; it lasted seventeen years. I’m a high school graduate. I went to art school. My entrance exam was on a book of matches. I decided to move out of the house when I was twenty-four. My mother still refers to this as the time I ran away from home. Eventually, I ran to Minneapolis, where it’s cold and I figured I’d keep better. Now I’m back in Manhattan. New York, this is your last chance!Dr. David Banner: physician; scientist. Searching for a way to tap into the hidden strengths that all humans have… then an accidental overdose of gamma radiation alters his body chemistry. And now when David Banner grows angry or outraged, a startling metamorphosis occurs. The creature is driven by rage and pursued by an investigative reporter. The creature is wanted for a murder he didn’t commit. David Banner is believed to be dead, and he must let the world think that he is dead, until he can find a way to control the raging spirit that dwells within him.",
+        "url": "/my-first-video-post.html"
+    }
+        ,
+        
+        "example-post-html": {
+        "title": "My First Post on Jekyll",
+                "author": "",
+                "category": "",
+                "content": "Steve Austin: Astronaut. A man barely alive. Gentlemen… we can rebuild him. We have the technology. We have the capability to make the world’s first bionic man. Steve Austin will be that man. Better than he was before. Better. Stronger. Faster.My name is Rhoda Morgenstern. I was born in the Bronx, New York in December of 1941. I’ve always felt responsible for World War II. The first thing I remember liking that liked me back was food. I had a bad puberty; it lasted seventeen years. I’m a high school graduate. I went to art school. My entrance exam was on a book of matches. I decided to move out of the house when I was twenty-four. My mother still refers to this as the time I ran away from home. Eventually, I ran to Minneapolis, where it’s cold and I figured I’d keep better. Now I’m back in Manhattan. New York, this is your last chance!Dr. David Banner: physician; scientist. Searching for a way to tap into the hidden strengths that all humans have… then an accidental overdose of gamma radiation alters his body chemistry. And now when David Banner grows angry or outraged, a startling metamorphosis occurs. The creature is driven by rage and pursued by an investigative reporter. The creature is wanted for a murder he didn’t commit. David Banner is believed to be dead, and he must let the world think that he is dead, until he can find a way to control the raging spirit that dwells within him.",
+        "url": "/example-post.html"
+    }
+        ,
+        
+        "my-first-normal-post-html": {
+        "title": "My First Normal Post on Jekyll",
+                "author": "",
+                "category": "",
+                "content": "Steve Austin: Astronaut. A man barely alive. Gentlemen… we can rebuild him. We have the technology. We have the capability to make the world’s first bionic man. Steve Austin will be that man. Better than he was before. Better. Stronger. Faster.My name is Rhoda Morgenstern. I was born in the Bronx, New York in December of 1941. I’ve always felt responsible for World War II. The first thing I remember liking that liked me back was food. I had a bad puberty; it lasted seventeen years. I’m a high school graduate. I went to art school. My entrance exam was on a book of matches. I decided to move out of the house when I was twenty-four. My mother still refers to this as the time I ran away from home. Eventually, I ran to Minneapolis, where it’s cold and I figured I’d keep better. Now I’m back in Manhattan. New York, this is your last chance!Dr. David Banner: physician; scientist. Searching for a way to tap into the hidden strengths that all humans have… then an accidental overdose of gamma radiation alters his body chemistry. And now when David Banner grows angry or outraged, a startling metamorphosis occurs. The creature is driven by rage and pursued by an investigative reporter. The creature is wanted for a murder he didn’t commit. David Banner is believed to be dead, and he must let the world think that he is dead, until he can find a way to control the raging spirit that dwells within him.",
+        "url": "/my-first-normal-post.html"
+    }
+        
+        
+    };
+</script>
+<script src="/site/js/lunr.min.js"></script>
+<script src="/site/js/search.js"></script>
                 </div>
 	   	
 
