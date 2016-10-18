@@ -95,6 +95,44 @@ jekyll serve
 
 TIP: Every file change is automatically published locally by Jekyll.
 
+== Site Anatomy
+
+[source]
+----
+   SITE
+    |
+    ├──_data
+    │   ├── global.yml <1>
+    │   ├── nav.yml <2>
+    ├──_includes <3>
+    │   ├── disqus-comments.html <4>
+    │   ├── tile.html <5>
+    │   ├── title-group.html <6>
+    ├──_layout
+    │   ├── default.html <7>
+    │   ├── inner.html <8>
+    ├──_pages <9>
+    │
+    ├──_posts <10>
+    │
+    ├──_site <11>
+    │
+    ├── RakeFile <12>
+    └── _config.yml <13>
+----
+<1> Global settings variables
+<2> Navigation menu bar labels and navigation urls.
+<3> Page includes of html fragments
+<4> Disqus integration
+<5> Layout of posts rendered in initial page (mainly a excerpt of the post with a link to read the full post)
+<6> Post detail layout
+<7> Main site layout (/site)
+<8> Inner pages layout like posts, menus and internal pages
+<9> Every page (except posts) that have an url, eg: `/sobre`, `/busca` etc...
+<10> Site posts
+<11> Generated site after `jekyll serve` or `jekyll build`
+<12> Build and deploy rake task (executed by travisci after git push)
+<13> Global Jekyll configuration like serving settings, plugins, includes/excludes etc...
 
 == Publishing
 
@@ -104,6 +142,4 @@ NOTE: Travis and the rake task is only needed because `jekyll-asciidoctor` gem i
 
 == TODO
 
-* Search mechanism to find posts
-* Customize layout (preferably by a web designer)
-
+https://github.com/rmpestano/site/issues/
