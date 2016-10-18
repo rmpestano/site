@@ -28,7 +28,8 @@ A try to migrate http://www.rsjug.org/[RSJUG site^] to  https://jekyllrb.com/[Je
 * Based on github pages 
 * Promotes contribution (as it is hosted on github)
 * Automatically build on git push
-* Posts based on Asciidoc (via asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
+* Posts based on Asciidoc (via http://asciidoctor.org/[Asciidoctor] and https://guides.github.com/features/mastering-markdown/[Markdown] (focus on content instead of markup)
+* Client side search
 
 
 == Running it locally
@@ -113,6 +114,7 @@ TIP: Every file change is automatically published locally by Jekyll.
     ├──_layout
     │   ├── default.html <7>
     │   ├── inner.html <8>
+    │   │
     ├──_pages <9>
     │
     ├──_posts <10>
@@ -141,6 +143,18 @@ TIP: Every file change is automatically published locally by Jekyll.
 Every git push triggers `travisci` which will run the `deploy` Rake task (see RakeFile) which will deploy the site to github pages.
 
 NOTE: Travis and the rake task is only needed because `jekyll-asciidoctor` gem is not installed in github pages, https://github.com/asciidoctor/jekyll-asciidoc-quickstart#github-pages-and-asciidoc[see details here^].  
+
+
+== Work done
+
+. Forked this https://github.com/scotch-io/scotch-io.github.io[Jekyll with bootstrap theme^];
+. Added https://github.com/asciidoctor/jekyll-asciidoc[Asciidoc integration^];
+. Played a bit with webfonts;
+. Added `tags` page;
+. Added Client side search using http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/[lunr.js^];
+. Added `archive` to list pages by year/month;
+. http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/[Disqus integration^]
+. Played a bit with performance analysis sites like google-speed-test, webpagetest.org and pingdom.
 
 == TODO
 

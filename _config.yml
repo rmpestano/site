@@ -82,3 +82,6 @@ include: ['_pages']
 exclude:
   - vendor/
   - README.adoc
+
+disqus:
+    shortname: 'rmpestano'

@@ -4,8 +4,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.data.global.title | xml_escape }}</title>
- <link href="{{ site.data.global.url }}/atom.xml" rel="self"/>
- <link href="{{ site.data.global.url }}/"/>
+ <link href="/site/atom.xml" rel="self"/>
+ <link href="/site/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.data.global.url }}</id>
  <author>
