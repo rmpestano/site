@@ -151,7 +151,7 @@ NOTE: Travis and the rake task is only needed because `jekyll-asciidoctor` gem i
 . Added https://github.com/asciidoctor/jekyll-asciidoc[Asciidoc integration^];
 . Played a bit with webfonts;
 . Added `tags` page;
-. Added Client side search using http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/[lunr.js^];
+. Added `client side search` using http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/[lunr.js^];
 . Added `archive` to list pages by year/month;
 . http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/[Disqus integration^]
 . Played a bit with performance analysis sites like google-speed-test, webpagetest.org and pingdom.
