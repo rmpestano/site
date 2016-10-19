@@ -5949,17 +5949,6 @@ body {
 p {
   margin-bottom: 30px; }
 
-section, header, footer, main, article, nav, aside {
-  position: relative; }
-
-a {
-  outline: none !important;
-  text-decoration: none !important;
-  transition: all 225ms ease;
-  color: #f53c3c; }
-  a:hover {
-    color: #1d73bd; }
-
 .btn {
   text-transform: uppercase;
   font-weight: 400; }
@@ -6180,3 +6169,6 @@ aside {
 
 .post-tags {
   text-align: right; }
+
+div.post-tags a:hover {
+  color: #31B0D5 !important; }
