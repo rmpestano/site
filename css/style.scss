@@ -21,6 +21,16 @@ body {
 p {
     margin-bottom: 30px;
 }
+
+section, header, footer, main, article, nav, aside { position: relative; }
+ a {
+     outline: none !important;
+     text-decoration: none !important;
+     transition: all 225ms ease;
+     color: $scotch-secondary;
+ 
+     &:hover { color: #1d73bd; }
+ }
  
 .btn {
     text-transform: uppercase;
